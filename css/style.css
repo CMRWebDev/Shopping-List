@@ -1,15 +1,22 @@
 .main {
 	border: 1px solid;
 	text-align: center; 
-	max-width: 30rem;
+	max-width: 25rem;
+	margin: 0 auto;
 }
 
 div {
 	border: 1px solid;
 }
 
-#clear-button {
-	
+
+.entry-section	{
+	padd
+}
+
+
+.list {
+	font-family: 'Shadows Into Light', cursive; 
 }
 
 ul {
@@ -20,4 +27,23 @@ ul {
 
 li {
 	
+}
+
+.checked-box {
+    
+	
+	
+}
+
+.items {
+	text-align: left;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.bottom-clear {
+	text-align: right;
+	margin-right: 20px;
 }
