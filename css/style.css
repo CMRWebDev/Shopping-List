@@ -1,5 +1,23 @@
+.main {
+	border: 1px solid;
+	text-align: center; 
+	max-width: 30rem;
+}
+
 div {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
+	border: 1px solid;
+}
+
+#clear-button {
+	
+}
+
+ul {
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+}
+
+li {
+	
 }
