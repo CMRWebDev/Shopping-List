@@ -1,8 +1,10 @@
 <!DOCTYPE <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 	<title>SHOPPING LIST</title>
 </head>
@@ -10,41 +12,42 @@
 	<div class="main">
 		<div class="entry-section">
 			<form action="list-entries">
-  				Enter Items <input type="text" name="Item"><br><br>
-  				Enter Quantity <input type="text" name="Quantity"><br><br>
-  				<input type="submit" value="Add to list">
+  				Enter Items <input type="text" id="add-item"><br><br>
+  				Enter Quantity <input type="text" id="add-quantity"><br><br>
+  				<input id = "btnSubmit" type="submit" value="Release"/>
 			</form>
+			<div id="error">Enter what you're shopping for.</div>
 		</div>
 		<hr>
 		<div class="list">
 			<ul class="items">
 				<h1>Items</h1>
-				<li class="done">
-					<input type="checkbox" name="animal" value="Cat"/>
+				<li class="complete">
+					
 					<span>Apples</span>
 				</li>
-				<li class="done">
-					<input type="checkbox" name="animal" value="Cat"/>
+				<li class="complete">
+					
 					<span>oranges<span>
 				</li>
 				<li class="incomplete">
-				<input type="checkbox" name="animal" value="Cat"/>
+					<button class="done-button">Done</button>
 				<span>Carrots</span>
 				</li>              
 				<li class="incomplete">
-				<input type="checkbox" name="animal" value="Cat"/>
-				<span>Milk</span>
+					<button class="done-button">Done</button>
+					<span>Milk</span>
 				</li>
 				<li class="incomplete">
-				<input type="checkbox" name="animal" value="Cat"/>
-				<span>Chicken</span>
+					<button class="done-button">Done</button>
+					<span>Chicken</span>
 				</li>
 				
 		    </ul>
 		    <ul class="quantity">
 				<h1>Quantity</h1>
-				<li class="done">6</li>
-				<li class="done">5</li>
+				<li class="complete">6</li>
+				<li class="complete">5</li>
 				<li class="incomplete">
 				<span>3</span>
 				</li>              
