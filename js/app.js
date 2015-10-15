@@ -15,15 +15,16 @@ $("#add-todo").click(function(){
 		if(!$.trim($('#add-item').val())) {
 			alert('Please enter text to add to the list');
 		} else {
-			$('<ul class="items"></ul>').appendTo('.items').html(itemsval);
+			$('<li class="item"></li>').appendTo('.items-list').html(itemsval);
 
 		document.getElementById('add-item').value = '';
 		};
 
+		
 		if(!$.trim($('#add-quantity').val())) {
 			alert('Please enter text to add to the list');
 		} else {
-			$('<ul class="quantity"></ul>').appendTo('.quantity').html(quantityval);
+			$('<li class="quantity"></li>').appendTo('.quantity-list').html(quantityval);
 
 		document.getElementById('add-quantity').value = '';
 		};	
