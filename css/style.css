@@ -1,4 +1,8 @@
+html {
+	background-color: #8CBECF;
+}
 .main {
+	background-color: CF9D8C;
 	border: 1px solid;
 	text-align: center; 
 	max-width: 25rem;
@@ -22,7 +26,8 @@ div {
 ul {
 	text-decoration: none;
 	list-style: none;
-	display: inline-block;
+	padding: 0;
+	
 }
 
 li {
@@ -36,9 +41,14 @@ li {
 }
 
 .item {
-	text-align: left;
+	
+	border: 1px dotted;
 }
 
+
+.list {
+	padding: 0;
+}
 .complete {
 	text-decoration: line-through;
 }
@@ -49,3 +59,31 @@ li {
 	margin-top: 
 	height: 30px;
 }
+
+.check {
+	float: left;
+}
+
+.delete {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
