@@ -22,14 +22,6 @@ $("#add-todo").click(function(){
 		document.getElementById('add-item').value = '';
 		};
 
-
-		
-	
-			
-
-	
-
-
 	});
 });
 
@@ -39,7 +31,10 @@ $(document).on("click", ".delete", function(){
 });
 
 // Allows user to check off items
+$(document).on("click", ".check", function(){
+	$(this).closest('li').toggleClass('complete')
 
+});
 
 
 // When delete is clixked
