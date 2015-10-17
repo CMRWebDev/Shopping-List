@@ -71,8 +71,8 @@ ul {
 }
 
 .complete {
-	text-decoration: line-through;
-	color: aqua;
+	text-decoration: line-through !important;
+	
 }
 
 .bottom-clear {

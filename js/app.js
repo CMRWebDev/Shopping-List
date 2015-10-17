@@ -33,7 +33,6 @@ $(document).on("click", ".delete", function(){
 // Allows user to check off items
 $(document).on("click", ".check", function(){
 	$(this).closest('li').toggleClass('complete')
-
 });
 
 
